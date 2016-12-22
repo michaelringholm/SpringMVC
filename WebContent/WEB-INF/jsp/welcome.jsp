@@ -4,9 +4,11 @@
 <html>
 <head>
 <title>Spring MVC Tutorial</title>
-	<!-- <link href="<c:url value="/css/main.css" />" rel="stylesheet">
-    <script src="<c:url value="/js/jquery.1.10.2.min.js" />"></script>
-    <script src="<c:url value="/js/sample.js" />"></script> -->
+	<link href="<c:url value="/resources/css/jquery-ui.structure.min.css" />" rel="stylesheet">
+	
+    <script src="<c:url value="/resources/js/jquery-3.1.1.min.js" />"></script>
+    <script src="<c:url value="/resources/js/jquery-ui.min.js" />"></script>
+    <script src="<c:url value="/resources/js/sample.js" />"></script>
 </head>
 <body>
  
