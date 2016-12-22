@@ -5,19 +5,16 @@
 <head>
 <title>Spring MVC Tutorial</title>
 	<link href="<c:url value="/resources/css/jquery-ui.structure.min.css" />" rel="stylesheet">
+	<link href="<c:url value="/resources/css/opusmagus.css" />" rel="stylesheet">
 	
     <script src="<c:url value="/resources/js/jquery-3.1.1.min.js" />"></script>
     <script src="<c:url value="/resources/js/jquery-ui.min.js" />"></script>
     <script src="<c:url value="/resources/js/sample.js" />"></script>
 </head>
 <body>
- 
-	<br>
-	<br>
-	<div style="font-family: verdana; padding: 10px; border-radius: 10px; font-size: 12px; text-align:center;">
- 		Hello		
-	</div>
+	<input id="hfAppRoot" type="hidden" value="<%=request.getContextPath()%>">
+ 	<h1>Spring MVC Starter Project</h1>
 	
-	<div id="showWebserverName">Test AJAX post back</div>
+	<div id="btnGetCustomer" style="cursor:pointer; text-decoration:underline;">Test AJAX post back</div>
 </body>
 </html>

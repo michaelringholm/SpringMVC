@@ -1,8 +1,8 @@
 package com.opusmagus.controller;
 
 import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.RequestMethod;
 
 import com.opusmagus.dto.Customer;
 
@@ -12,7 +12,7 @@ import com.opusmagus.dto.Customer;
  * in the URL path. That includes /welcome/* and /welcome.html
  */
 @RestController
-@RequestMapping("/pure-rest")
+@RequestMapping(value = "/pure-rest", method = RequestMethod.POST)
 public class PureRestController {
 	
 	@RequestMapping("/customer")
